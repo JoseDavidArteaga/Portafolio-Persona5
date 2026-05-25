@@ -212,16 +212,13 @@ export default function Home() {
                   ))}
                 </h1>
               )}
-                <div style={{ transform: " translateY(-30px)"}}>
-                  <div style={{ transform: "translateX(-90px)" }}>
+
+                  <div style={{ transform: "translateX(-120px) translateY(-60px)" }}>
                     <PersonaButton
                       text="SCHEDULE"
                       href="https://calendly.com/josedavidart-unicauca/30min"
                     />
                   </div>
-
-
-                </div>
 
             </div>
           </div>
