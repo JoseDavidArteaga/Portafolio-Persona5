@@ -216,7 +216,7 @@ export default function Home() {
                   <div style={{ transform: "translateX(-90px)" }}>
                     <PersonaButton
                       text="SCHEDULE"
-                      onClick={() => open("https://calendly.com/YOUR_USERNAME/30min")}
+                      href="https://calendly.com/josedavidart-unicauca/30min"
                     />
                   </div>
 
