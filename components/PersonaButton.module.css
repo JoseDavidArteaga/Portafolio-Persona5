@@ -61,6 +61,7 @@
   transform: translateZ(40px);
   text-shadow: 2px 2px 0 #a3000e;
   transition: text-shadow 0.4s ease;
+  margin-left: -60px;
 }
 
 /* Hover: el botón se endereza y "levanta" */
