@@ -9,7 +9,7 @@ const ProjectsComponent: React.FC = () => {
             description: "Una aplicación simple para gestionar tareas diarias. Permite añadir, eliminar y marcar tareas como completadas.",
             technologies: ["HTML", "CSS", "JavaScript", "localStorage"],
             link: "https://josedavidarteaga.github.io/ToDoList",
-            img: "/project-1.png",
+            img: "/img/proyectos/todo-list-app.png",
         },
         {
             id: 2,
@@ -17,7 +17,7 @@ const ProjectsComponent: React.FC = () => {
             description: "Una calculadora funcional con un diseño moderno. Realiza operaciones básicas y demuestra la lógica de JavaScript.",
             technologies: ["HTML", "CSS", "JavaScript"],
             link: "https://josedavidarteaga.github.io/CalculadoraBasica",
-            img: "/project-2.png",
+            img: "/img/proyectos/calculadora.png",
         },
         {
             id: 3,
@@ -25,7 +25,7 @@ const ProjectsComponent: React.FC = () => {
             description: "Una herramienta que usa una API externa para buscar y mostrar recetas, demostrando el consumo de datos dinámicos.",
             technologies: ["HTML", "CSS", "JavaScript", "API"],
             link: "https://josedavidarteaga.github.io/BuscadorDeRecetas",
-            img: "/project-3.png",
+            img: "/img/proyectos/buscador-recetas.png",
         },
         {
             id: 4,
@@ -33,7 +33,7 @@ const ProjectsComponent: React.FC = () => {
             description: "Una aplicación creativa que genera paletas de colores aleatorias, ideal para diseñadores y desarrolladores.",
             technologies: ["HTML", "CSS", "JavaScript"],
             link: "https://josedavidarteaga.github.io/GeneradorDePaletaDeColores",
-            img: "/project-4.png",
+            img: "/img/proyectos/generador-colores.png",
         },
         {
             id: 5,
@@ -41,7 +41,7 @@ const ProjectsComponent: React.FC = () => {
             description: "Una versión digital expandida del clásico juego. Implementa la lógica completa de las 5 opciones, donde el usuario compite contra la computadora.",
             technologies: ["HTML", "CSS", "JavaScript"],
             link: "https://josedavidarteaga.github.io/PiedraPapelTijeraLagartoSpock",
-            img: "/project-5.png",
+            img: "/img/proyectos/juego-piedra-papel-tijera-lagarto-spock.png",
         },
         {
             id: 6,
@@ -49,7 +49,7 @@ const ProjectsComponent: React.FC = () => {
             description: "Una aplicación que usa la PokeAPI para buscar Pokémon por nombre o ID y mostrar sus datos en tiempo real.",
             technologies: ["HTML", "CSS", "JavaScript", "PokeAPI"],
             link: "https://josedavidarteaga.github.io/BuscadorPokemon",
-            img: "/project-6.png",
+            img: "/img/proyectos/pokemon-app.png",
         },
     ];
 
