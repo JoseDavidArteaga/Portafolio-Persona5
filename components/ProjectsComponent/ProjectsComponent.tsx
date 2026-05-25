@@ -5,44 +5,50 @@ const ProjectsComponent: React.FC = () => {
     const projects = [
         {
             id: 1,
-            title: "Agency Website",
-            technologies: ["React", "Next.js"],
-            link: "https://haly.digital/es",
+            title: "Aplicación de Tareas (To-Do List)",
+            description: "Una aplicación simple para gestionar tareas diarias. Permite añadir, eliminar y marcar tareas como completadas.",
+            technologies: ["HTML", "CSS", "JavaScript", "localStorage"],
+            link: "https://josedavidarteaga.github.io/ToDoList",
             img: "/project-1.png",
         },
         {
             id: 2,
-            title: "Educational Page",
-            technologies: ["AstroJs", "Node.js", "Python"],
-            link: "https://ciiec.netlify.app/#",
+            title: "Calculadora Básica",
+            description: "Una calculadora funcional con un diseño moderno. Realiza operaciones básicas y demuestra la lógica de JavaScript.",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            link: "https://josedavidarteaga.github.io/CalculadoraBasica",
             img: "/project-2.png",
         },
         {
             id: 3,
-            title: "Private Production App",
-            technologies: ["PHP", "MySQL", "Laravel"],
-            link: "http://iocsa.ixtle.org/login.php",
+            title: "Buscador de Recetas",
+            description: "Una herramienta que usa una API externa para buscar y mostrar recetas, demostrando el consumo de datos dinámicos.",
+            technologies: ["HTML", "CSS", "JavaScript", "API"],
+            link: "https://josedavidarteaga.github.io/BuscadorDeRecetas",
             img: "/project-3.png",
         },
         {
             id: 4,
-            title: "HR Management System",
-            technologies: ["Laravel", "PHP", "MySQL"],
-            link: "http://nomina-dev.lan.clinik.com:30080/dashboard",
+            title: "Generador de Paleta de Colores",
+            description: "Una aplicación creativa que genera paletas de colores aleatorias, ideal para diseñadores y desarrolladores.",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            link: "https://josedavidarteaga.github.io/GeneradorDePaletaDeColores",
             img: "/project-4.png",
         },
         {
             id: 5,
-            title: "Car Rental App",
-            technologies: ["Angular", "Django", "AWS"],
-            link: "https://armoredmex.mx/",
+            title: "Juego de Piedra, Papel, Tijera, Lagarto, Spock",
+            description: "Una versión digital expandida del clásico juego. Implementa la lógica completa de las 5 opciones, donde el usuario compite contra la computadora.",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            link: "https://josedavidarteaga.github.io/PiedraPapelTijeraLagartoSpock",
             img: "/project-5.png",
         },
         {
             id: 6,
-            title: "Form Builder & Data Collection",
-            technologies: ["VueJS", "Laravel", "Fargate"],
-            link: "https://formbuilder.my.canva.site/",
+            title: "Buscador de Pokemon",
+            description: "Una aplicación que usa la PokeAPI para buscar Pokémon por nombre o ID y mostrar sus datos en tiempo real.",
+            technologies: ["HTML", "CSS", "JavaScript", "PokeAPI"],
+            link: "https://josedavidarteaga.github.io/BuscadorPokemon",
             img: "/project-6.png",
         },
     ];
@@ -64,6 +70,7 @@ const ProjectsComponent: React.FC = () => {
                             />
                             <div className={styles.overlay}>
                                 <span className={styles.projectTitle}>{project.title}</span>
+                                <p className={styles.projectDescription}>{project.description}</p>
                                 <ul className={styles.technologiesList}>
                                     {project.technologies.map((tech, index) => (
                                         <li key={index} className={styles.technology}>
